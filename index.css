@@ -1,0 +1,13 @@
+.tab {
+    width: 10em;
+    height: auto;
+}
+
+.tab-selected {
+    background-color: white;
+}
+
+.tab-deselected {
+    background-color: gray;
+    border: 1px solid black;
+}
