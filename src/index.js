@@ -3,6 +3,8 @@ import loadContact from "./contact.js";
 import loadMenu from "./menu.js";
 
 const body = document.querySelector("body");
+body.setAttribute("style", "overflow: hidden");
+
 const tabPanel = document.createElement("div");
 tabPanel.setAttribute("style", 
     "display: flex;\
@@ -16,6 +18,7 @@ for (let tab of tabs) {
 }
 
 const content = document.querySelector("#content");
+
 body.insertBefore(tabPanel, content);
 
 let selectedTab = tabs[0];

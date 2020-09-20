@@ -15,10 +15,13 @@ export default function loadContacts(content) {
 
 function createInfoSection(headingName, text) {
     const display = document.createElement("div");
+    //display.setAttribute("style", )
     
     const heading = document.createElement("p");
     heading.textContent = headingName;
-    heading.setAttribute("style", "font-weight: bold;");
+    heading.setAttribute("style", 
+        "font-weight: bold;\
+            margin: 30px auto 10px;");
 
     const content = document.createElement("p");
     content.textContent = text;

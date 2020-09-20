@@ -1,3 +1,7 @@
+li, p {
+    line-height: 1.5em;
+}
+
 .tab {
     width: 10em;
     height: auto;
