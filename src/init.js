@@ -12,7 +12,7 @@ export default function loadInit(content) {
     content.appendChild(restaurantName);
 
     const foodImage = document.createElement("img");
-    foodImage.setAttribute("src", "../src/foodiesfeed.com_friends-having-pizza-in-a-restaurant.jpg");
+    foodImage.setAttribute("src", "./foodiesfeed.com_friends-having-pizza-in-a-restaurant.jpg");
     foodImage.setAttribute("style", 
         "width: auto;\
             height: 65vh;\
